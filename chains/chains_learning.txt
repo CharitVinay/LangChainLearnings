@@ -1,0 +1,11 @@
+There are three types of chains.
+
+1. Extended : We can add all chains in a sequence like a train compartment.
+2. Parallel : Parallel chain is first one node is executed and then it will start executing the two paralled chains we can design that kind of chains when we need to execute couple of process parallely to make time effective.
+
+ A ->B ->B1 ->B2
+ A ->C ->C1 ->C2
+
+3. Branching: Based on the conditional we can choose one branch and in that we can have extended chain or paralle chain based on our use case.
+
+ A -> B/C/D and that chain will be executed.
