@@ -3,7 +3,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 model = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
 
-# 1. create a prompt template using template string.
+# 1. create a prompt template using template string
 template = "Tell me a joke about {topic}."
 promptTemplate = ChatPromptTemplate.from_template(template)
 
